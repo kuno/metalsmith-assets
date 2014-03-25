@@ -11,7 +11,7 @@ var path  = require('path');
  */
 
 module.exports = function(dir) {
-  if (!dir) dir = 'public';
+  if (!dir) dir = 'assets';
   return function(files, metalsmith, done) {
     var src = path.join(metalsmith.dir, dir);
     ncp(src, path.join(metalsmith.dir, metalsmith._dest, dir), function(err) {

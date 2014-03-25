@@ -1,5 +1,5 @@
 {
-  "name": "metalsmith-static",
+  "name": "metalsmith-assets",
   "author": "Daniel Fagnan",
   "version": "0.0.2",
   "dependencies": {
